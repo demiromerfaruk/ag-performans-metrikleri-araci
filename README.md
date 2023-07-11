@@ -37,12 +37,12 @@ python bandwidth_client_gui.py ( --ip <server_ip> --port <server_port> --protoco
 uygun değerlerle değiştirin:
 
 
--- server_ip: Sunucunun IP adresi.
--- server_port: Sunucunun çalıştığı port numarası.
--- protocol: Kullanılacak protokol (TCP veya UDP).
--- packet_size: Bayt cinsinden her paketin boyutu (varsayılan: 1024).
--- duration: Testin saniye cinsinden süresi (varsayılan: 10.0).
--- iterations: Test yineleme sayısı (varsayılan: 1000).
+- server_ip: Sunucunun IP adresi.
+- server_port: Sunucunun çalıştığı port numarası.
+- protocol: Kullanılacak protokol (TCP veya UDP).
+- packet_size: Bayt cinsinden her paketin boyutu (varsayılan: 1024).
+- duration: Testin saniye cinsinden süresi (varsayılan: 10.0).
+- iterations: Test yineleme sayısı (varsayılan: 1000).
 
 * Gerçek zamanlı ölçümleri görüntüleyen Ağ Performansı Metrikleri GUI penceresi açılacaktır.
 
