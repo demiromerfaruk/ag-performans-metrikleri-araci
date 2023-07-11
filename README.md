@@ -60,4 +60,4 @@ Ağ Performansı Metrikleri Aracı, aşağıdaki ölçümleri ölçer:
 
 ## Lisans
 
-Bu proje [MIT Lisansı](LİSANS) kapsamında lisanslanmıştır. Daha fazla ayrıntı için LİSANS dosyasına bakın .
+Bu proje [MIT Lisansı](https://github.com/demiromerfaruk/ag-performans-metrikleri-araci/blob/main/LICENSE) kapsamında lisanslanmıştır. Daha fazla ayrıntı için LİSANS dosyasına bakın .
