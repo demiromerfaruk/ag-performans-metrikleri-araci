@@ -25,14 +25,16 @@ Bu araç, bir istemci ile bir sunucu arasındaki bant genişliği, gecikme süre
 2. Komut dosyasını içeren dizine gidin bandwidth_client_gui.py.
 3. İstemciyi başlatmak için aşağıdaki komutu çalıştırın:
 
-- python bandwidth_client_gui.py --ip <server_ip> --port <server_port> --protocol <protocol> --packet-size <packet_size> --duration <duration> --iterations <iterations>, 
+python bandwidth_client_gui.py --ip <server_ip> --port <server_port> --protocol <protocol> --packet-size <packet_size> --duration <duration> --iterations <iterations>, 
+
 
 * <server_ip>
 * <server_port>
 * <protocol>
 * <packet_size>
 * <duration>
-* <iterations> uygun değerlerle değiştirin:
+* <iterations>,  
+uygun değerlerle değiştirin:
 
 
 - <server_ip>: Sunucunun IP adresi.
