@@ -1,6 +1,6 @@
 # Ağ Performansı Metrikleri Aracı
 
-Bu araç, bir istemci ile bir sunucu arasındaki bant genişliği, gecikme süresi ve paket kaybı gibi ağ performansı ölçümlerini ölçer. İki betikten oluşur: bant genişliği_client_gui.py (istemci) ve bant genişliği sunucusu.py (sunucu).
+Bu araç, bir istemci ile bir sunucu arasındaki bant genişliği, gecikme süresi ve paket kaybı gibi ağ performansı ölçümlerini ölçer. İki betikten oluşur: bant genişliği_client_gui.py (client) ve bant genişliği sunucusu.py (server).
 
 ###  :electric_plug: Önkoşullar
 
@@ -25,9 +25,14 @@ Bu araç, bir istemci ile bir sunucu arasındaki bant genişliği, gecikme süre
 2. Komut dosyasını içeren dizine gidin bandwidth_client_gui.py.
 3. İstemciyi başlatmak için aşağıdaki komutu çalıştırın:
 
-- python bandwidth_client_gui.py --ip <server_ip> --port <server_port> --protocol <protocol> --packet-size <packet_size> --duration <duration> --iterations <iterations>
+- python bandwidth_client_gui.py --ip <server_ip> --port <server_port> --protocol <protocol> --packet-size <packet_size> --duration <duration> --iterations <iterations>, 
 
-<server_ip>, <server_port>, <protocol>, <packet_size>, <duration>ve yer tutucularını <iterations>uygun değerlerle değiştirin:
+* <server_ip>
+* <server_port>
+* <protocol>
+* <packet_size>
+* <duration>
+* <iterations> uygun değerlerle değiştirin:
 
 
 - <server_ip>: Sunucunun IP adresi.
