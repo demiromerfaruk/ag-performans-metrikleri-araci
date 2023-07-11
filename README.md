@@ -2,12 +2,12 @@
 
 Bu araç, bir istemci ile bir sunucu arasındaki bant genişliği, gecikme süresi ve paket kaybı gibi ağ performansı ölçümlerini ölçer. İki betikten oluşur: bant genişliği_client_gui.py (istemci) ve bant genişliği sunucusu.py (sunucu).
 
-## Önkoşullar
+###  :electric_plug: Önkoşullar
 
 - Python 3.x
 - Gerekli Python paketleri: matplotlib, tkinter
 
-## Kullanım
+## :zap: Kullanım
 
 # Server
 
@@ -39,7 +39,7 @@ Bu araç, bir istemci ile bir sunucu arasındaki bant genişliği, gecikme süre
 
 * Gerçek zamanlı ölçümleri görüntüleyen Ağ Performansı Metrikleri GUI penceresi açılacaktır.
 
-## Metrikler
+###  :package: Metrikler
 Ağ Performansı Metrikleri Aracı, aşağıdaki ölçümleri ölçer:
 
 - Süre: Test için harcanan toplam süre.
