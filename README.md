@@ -30,11 +30,10 @@ python bandwidth_client_gui.py ( --ip <server_ip> --port <server_port> --protoco
 
 * <server_ip>
 * <server_port>
-* <protocol>
+* -- protocol
 * <packet_size>
-* <duration>
-* <iterations>,  
-uygun değerlerle değiştirin:
+* -- duration
+* -- iterations, uygun değerlerle değiştirin:
 
 
 - server_ip: Sunucunun IP adresi.
